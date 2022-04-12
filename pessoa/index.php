@@ -50,7 +50,7 @@
                             echo '<td>'.$registro['id'].'</td>';
                             echo '<td>'.$registro['nome'].'</td>';
                             echo '<td>'.$registro['idade'].'</td>';
-                            echo '<td>Editar | <a href="exclui.php?id='.$registro['id'].'">Excluir</a></td>';
+                            echo '<td><a href="edita.php?id='.$registro['id'].'">Editar</a> | <a href="exclui.php?id='.$registro['id'].'">Excluir</a></td>';
                         echo '</tr>';
                     }
                 } else {
